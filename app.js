@@ -148,26 +148,3 @@ const port = 4000;
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
 });
-
-// // Rasti visus dokumentus
-// async function findAllTasks(){
-//   const tasks = await Task.find({});
-//   console.log(tasks);
-// }
-// // findAllTasks();
-
-// // Rasti dokumentą pagal ID
-// const taskID = '6404eb71c9a28153b30fed15';
-// async function findById(id) {
-//   const task = await Task.findById(id).exec();
-//   console.log(task);
-// }
-// // findById(taskID);
-
-// // Rasti dokumentą pagal ID ir ištrinti
-// const taskID2 = '6404eb71c9a28153b30fed15';
-// async function findByIdandDelete(id) {
-//   const task = await Task.findByIdAndDelete(id);
-//   console.log(task);
-// }
-// // findByIdandDelete(taskID2);
